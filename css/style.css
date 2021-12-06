@@ -1,0 +1,442 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+body{
+    background-color: #000;
+}
+
+header{
+    height: 26vh;
+    background: #3f5efb;
+    background: radial-gradient(circle, #3f5efb 0%, #73119d 32%, #400254 61%, #0f075d 100%);
+}
+header div{   
+    background: rgb(63,94,251);
+}
+header p{
+    width: 100vw;
+    padding: 0.9vw;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#Logo img{
+    position:absolute;    
+    width: 23vw;
+    height: 10vh;
+    z-index: 1;
+}
+
+.redes img{
+    position:static; 
+    margin: 0.5vw 0.5vw 0.5vh 0.5vh ;   
+    width: 16vw;
+    height: 5vh;
+    float:right;
+    border: 2px solid #fff;
+
+}
+header h1{
+    color: #fff;
+    font-size:3rem;
+    padding: 1vw;
+    text-align: center;
+    margin-left: 9vw;
+    clear: both; 
+}
+nav{
+    background-color: #000;
+    clear: both;
+}
+nav a {
+    color: #fff;
+}
+nav ul li{  
+    list-style: none;   
+}
+nav ul li a{
+    text-decoration: none;
+    color: solid #000;
+    border: 1px solid #fff;
+    display: block;
+    text-align: center;
+    height: 4.7vh;
+    width: 100vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 1.5vh;
+}
+nav ul li a:hover{
+    color: #000;
+    background-color: #fff;
+}
+nav ul li a:active {
+    background-color: #fff;
+    clear: both;
+}
+main{
+    background-color: #fff;
+}
+main h1{
+    width: 100vw;
+    clear: both;  
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #f00;
+    text-align: justify;
+}
+main h3{
+    color: #000;
+    font-size: 2rem;
+    margin-left:0.9vw;
+
+}
+main p{  
+    color: #000; 
+    font-size: 1rem;
+    margin-left:0.9vw;
+    margin-bottom:0.9vw;
+    padding: 2vw;
+}
+#entrevistasevideos img{    
+   width: 35vw;
+   height: 25vh;
+    
+}
+#imagens{
+    background-color: #000;
+}
+#imagens img{
+    width: 45vw;
+    height: 35vh;
+}
+.flex-container{     
+    display: flex;      
+    flex-flow: row wrap;   
+}
+.flex-container > div {        
+    width: 40vw;
+    margin: 4vw;
+    line-height: 1vh;
+    font-size: 30px;      
+}
+footer{
+    background-color: #000;
+}
+footer h1{
+    width: 100vw;
+    clear: both;  
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #f00;
+    text-align: justify;
+}
+footer a {
+    color: #fff;
+    font-size: 1em;
+    margin-left:0.9vw; 
+}
+
+footer h2{
+    color: #fff;
+    font-size: 2em;
+    margin-left:0.9vw;
+}
+footer p{  
+    color: #fff; 
+    font-size: 1em;
+    margin-left:0.9vw;
+    margin-bottom:0.9vw;
+}  
+@media only screen and (min-width: 680px){
+body{
+    background-color: #000;
+}
+header{
+    height: 28vh;
+    background: #3f5efb;
+    background: radial-gradient(circle, #3f5efb 0%, #73119d 32%, #400254 61%, #0f075d 100%);
+}
+header h1{
+    color: #fff;
+    font-size:6em;
+    padding: 1vw;
+    text-align: center;
+    margin-left: 9vw;
+    clear: both; 
+}
+header p{
+    width: 100vw;
+    padding: 0.2vw;
+    color: #fff;
+    font-size: 2.3em;
+}
+#Logo img{
+    position:absolute;    
+    width: 25vw;
+    height: 13vh;
+    z-index: 1;
+}
+.redes img{
+    position:static; 
+    margin: 0.5vw 0.5vw 0.5vh 0.5vh ;   
+    width: 16vw;
+    height: 5vh;
+    float:right;
+    border: 2px solid #fff;
+}
+nav{
+    background-color: #000;
+    clear: both;
+}
+nav a {
+    font-size: 2em;
+    color: #fff;
+}
+nav ul li{  
+    list-style: none;   
+}
+nav ul li a{
+    text-decoration: none;
+    color: solid #000;
+    border: 1px solid #fff;
+    display: block;
+    text-align: center;
+    height: 4.7vh;
+    width: 100vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 1.5vh;
+}
+nav ul li a:hover{
+    color: #000;
+    background-color: #fff;
+}
+nav ul li a:active {
+    background-color: #fff;
+    clear: both;
+}
+main{
+    background-color: #fff;
+}
+main h1{
+    width: 100vw;
+    clear: both;  
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #f00;
+    font-size: 2.5em;
+    text-align: justify;
+}
+main h3{
+    color: #000;
+    font-size: 3em;
+    margin-left:0.9vw;
+
+}
+main p{  
+    color: #000; 
+    font-size: 2em;
+    margin-left:0.9vw;
+    margin-bottom:0.9vw;
+    padding: 2vw;
+}
+#entrevistasevideos img{    
+   width: 35vw;
+   height: 25vh;
+    
+}
+#imagens{
+    background-color: #000;
+}
+#imagens img{
+    width: 45vw;
+    height: 35vh;
+}
+.flex-container{     
+    display: flex;      
+    flex-flow: row wrap;   
+}
+.flex-container > div {        
+    width: 40vw;
+    margin: 4vw;
+    line-height: 1vh;
+    font-size: 30px;      
+}
+footer{
+    background-color: #000;
+}
+footer h1{
+    width: 100vw;
+    clear: both;  
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #f00;
+    font-size: 3em;
+    text-align: justify;
+}
+footer a {
+    color: #fff;
+    font-size: 2em;
+    margin-left:0.9vw; 
+}
+footer h2{
+    color: #fff;
+    font-size: 2em;
+    margin-left:0.9vw;
+}
+footer p{  
+    color: #fff; 
+    font-size: 2em;
+    margin-left:0.9vw;
+    margin-bottom:0.9vw;
+}
+
+}
+@media only screen and (min-width: 1024px){
+body{
+    background-color: #000;
+}
+header{
+    height: 30vh;
+    background: #3f5efb;
+    background: radial-gradient(circle, #3f5efb 0%, #73119d 32%, #400254 61%, #0f075d 100%);
+}
+header h1{
+    color: #fff;
+    text-align: left;
+    margin-left: 18vw;
+    font-size:5.5em;   
+}
+header p{
+    width: 100vw;
+    padding: 0.2vw;
+    color: #fff;
+    font-size: 2.3em;
+}
+#Logo img{
+    position:absolute;    
+    width: 20vw;
+    height: 12vh;
+    
+}
+.redes img{
+    position:static;
+    display: block;
+    margin: 0.5vw 0.5vw 0.5vh 0.5vh ;   
+    width: 10vw;
+    height: 5vh;    
+    border: 2px solid #fff;
+}
+nav{
+    background-color: #000;
+    clear: both;
+}
+nav a {
+    font-size: 2em;
+    color: #fff;
+}
+nav ul li{  
+    list-style: none;   
+}
+nav ul li a{
+    text-decoration: none;
+    color: solid #000;
+    border: 1px solid #fff;
+    display: block;
+    text-align: center;
+    height: 4.7vh;
+    width: 100vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 1.5vh;
+}
+nav ul li a:hover{
+    color: #000;
+    background-color: #fff;
+}
+nav ul li a:active {
+    background-color: #fff;
+    clear: both;
+}
+main{
+    background-color: #fff;
+}
+main h1{
+    width: 100vw;
+    clear: both;  
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #f00;
+    font-size: 2.5em;
+    padding: 1vh;
+    text-align: justify;
+}
+main h3{
+    color: #000;
+    font-size: 3em;
+    margin-left:0.9vw;
+
+}
+main p{  
+    color: #000; 
+    font-size: 2em;
+    margin-left:0.9vw;
+    margin-bottom:0.9vw;
+    padding: 0.2vw;
+}
+#entrevistasevideos img{    
+   width: 35vw;
+   height: 25vh;
+    
+}
+#imagens{
+    background-color: #000;
+}
+#imagens img{
+    text-align: center;
+    width: 29vw;
+    height: 20vh;
+}
+.flex-container{     
+    display: flex;      
+    flex-flow: row wrap;   
+}
+.flex-container > div {
+    width: 23vw;
+    margin: 4vw;
+    line-height: 1vh;
+    font-size: 30px;      
+}
+footer{
+    background-color: #000;
+}
+footer h1{
+    width: 100vw;
+    clear: both;  
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #f00;
+    font-size: 2.5em;
+    padding: 1vh;
+    text-align: justify;
+}
+footer a {
+    color: #fff;
+    font-size: 2em;
+    margin-left:0.9vw; 
+}
+footer h2{
+    color: #fff;
+    font-size: 2em;
+    margin-left:0.9vw;
+}
+footer p{  
+    color: #fff; 
+    font-size: 2em;
+    margin-left:0.9vw;
+    margin-bottom:0.9vw;
+}
+
+}
