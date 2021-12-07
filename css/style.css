@@ -1,13 +1,14 @@
 *{
     padding: 0;
-    margin: 0;    
+    margin: 0; 
+    font-family:  Helvetica, sans-serif,Arial;   
 }
 body{
     background-color: #000;
 }
 
 header{
-    height: 26vh;
+    height: 30vh;
     background: #3f5efb;
     background: radial-gradient(circle, #3f5efb 0%, #73119d 32%, #400254 61%, #0f075d 100%);
 }
@@ -16,23 +17,22 @@ header div{
 }
 header p{
     width: 100vw;
-    padding: 0.9vw;
+    padding: 3vw;   
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.5em;
+    text-align: justify;
 }
 
 #Logo img{
     position:absolute;    
-    width: 23vw;
-    height: 10vh;
+    width: 20vw;    
     z-index: 1;
 }
 
 .redes img{
     position:static; 
     margin: 0.5vw 0.5vw 0.5vh 0.5vh ;   
-    width: 16vw;
-    height: 5vh;
+    width: 16vw;   
     float:right;
     border: 2px solid #fff;
 
@@ -94,10 +94,13 @@ main h3{
 }
 main p{  
     color: #000; 
-    font-size: 1rem;
-    margin-left:0.9vw;
-    margin-bottom:0.9vw;
+    font-size: 1.3em;
+    margin-left:0.9vw;        
     padding: 2vw;
+    text-align: justify;
+}
+#videos iframe{
+    width: 100vw;
 }
 #entrevistasevideos img{    
    width: 35vw;
@@ -108,8 +111,7 @@ main p{
     background-color: #000;
 }
 #imagens img{
-    width: 45vw;
-    height: 35vh;
+    width: 45vw;    
 }
 .flex-container{     
     display: flex;      
@@ -154,28 +156,25 @@ body{
     background-color: #000;
 }
 header{
-    height: 28vh;
+    height: 37vh;
     background: #3f5efb;
     background: radial-gradient(circle, #3f5efb 0%, #73119d 32%, #400254 61%, #0f075d 100%);
 }
 header h1{
     color: #fff;
     font-size:6em;
-    padding: 1vw;
-    text-align: center;
-    margin-left: 9vw;
+    padding: 2vw;    
+    margin-left: 19vw;
     clear: both; 
 }
 header p{
-    width: 100vw;
-    padding: 0.2vw;
+    width: 84vw;    
     color: #fff;
-    font-size: 2.3em;
+    font-size: 2em;
 }
 #Logo img{
     position:absolute;    
-    width: 25vw;
-    height: 13vh;
+    width: 25vw;    
     z-index: 1;
 }
 .redes img{
@@ -242,6 +241,9 @@ main p{
     margin-bottom:0.9vw;
     padding: 2vw;
 }
+#videos iframe{
+    width: 75vw;
+}
 #entrevistasevideos img{    
    width: 35vw;
    height: 25vh;
@@ -251,8 +253,7 @@ main p{
     background-color: #000;
 }
 #imagens img{
-    width: 45vw;
-    height: 35vh;
+    width: 45vw;    
 }
 .flex-container{     
     display: flex;      
@@ -299,7 +300,7 @@ body{
     background-color: #000;
 }
 header{
-    height: 30vh;
+    height: 63vh;
     background: #3f5efb;
     background: radial-gradient(circle, #3f5efb 0%, #73119d 32%, #400254 61%, #0f075d 100%);
 }
@@ -307,26 +308,26 @@ header h1{
     color: #fff;
     text-align: left;
     margin-left: 18vw;
-    font-size:5.5em;   
+    padding: 3vw;
+    font-size:7em;   
 }
 header p{
     width: 100vw;
-    padding: 0.2vw;
+    padding: 3vw;
     color: #fff;
     font-size: 2.3em;
 }
 #Logo img{
     position:absolute;    
     width: 20vw;
-    height: 12vh;
+    
     
 }
 .redes img{
     position:static;
     display: block;
     margin: 0.5vw 0.5vw 0.5vh 0.5vh ;   
-    width: 10vw;
-    height: 5vh;    
+    width: 10vw;       
     border: 2px solid #fff;
 }
 nav{
@@ -346,7 +347,7 @@ nav ul li a{
     border: 1px solid #fff;
     display: block;
     text-align: center;
-    height: 4.7vh;
+    height: 7vh;
     width: 100vw;
     font-weight: bold;
     text-transform: uppercase;
@@ -381,10 +382,14 @@ main h3{
 }
 main p{  
     color: #000; 
-    font-size: 2em;
+    font-size: 1.5em;
     margin-left:0.9vw;
     margin-bottom:0.9vw;
     padding: 0.2vw;
+}
+#videos iframe{
+    width: 45vw;    
+    margin-left: 30vw;
 }
 #entrevistasevideos img{    
    width: 35vw;
@@ -397,7 +402,7 @@ main p{
 #imagens img{
     text-align: center;
     width: 29vw;
-    height: 20vh;
+    
 }
 .flex-container{     
     display: flex;      
@@ -428,13 +433,14 @@ footer a {
     margin-left:0.9vw; 
 }
 footer h2{
+    text-decoration: none;
     color: #fff;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-left:0.9vw;
 }
 footer p{  
     color: #fff; 
-    font-size: 2em;
+    font-size: 1.5em;
     margin-left:0.9vw;
     margin-bottom:0.9vw;
 }
